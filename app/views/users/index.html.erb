@@ -1,6 +1,7 @@
 <p>All Users</p>
 
 <div align="center">
+  <%= will_paginate %>
   <% @users.each do |user| %>
     <ul class="listing">
       <div class="row">
@@ -13,3 +14,6 @@
     </ul>
 </div>
 <% end %>
+<div align="center">
+  <%= will_paginate %>
+</div>
